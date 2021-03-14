@@ -1,0 +1,158 @@
+/* top header */
+.top-header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    font-size: 0.8rem;
+    z-index: 1000;
+  }
+  
+  .top-header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .top-header-ul {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  
+  .top-header-ul button {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .top-header-ul-social {
+    grid-column: 1/2;
+    justify-content: flex-start;
+  }
+  .top-header-ul-social a {
+      margin: 0 1rem 0 0;
+      
+  }
+  
+  .top-header-ul-search {
+    grid-column: 3/4;
+    justify-content: flex-end;
+  }
+  
+  .top-header-search-box {
+    width: 100%;
+    border-radius: 0px;
+    color: white;
+    border: none;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .top-header-li {
+    text-decoration: none;
+    margin: 0;
+  }
+  
+  .top-header-li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .top-header-li a:hover {
+    color: rgb(196, 196, 196);
+  }
+  
+  @media(max-width: 600px) {
+      
+  }
+  
+  /* blog title */
+  .blog-title {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.226);
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .blog-title h1,
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .blog-title h1 {
+    font-size: 2rem;
+  }
+  
+  .blog-title h2 {
+    font-size: 0.8rem;
+    color: gray;
+  }
+  
+  /* main header */
+  .main-header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    padding: .9rem 1.5rem;
+    border-top: 1px solid rgba(94, 94, 94, 0.24);
+    border-bottom: 1px solid rgba(94, 94, 94, 0.24);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index:99999;
+  }
+  
+  .main-header-nav {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .main-header-ul {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  
+  .main-header-ul-logo {
+    grid-column: 1/2;
+    justify-content: flex-start;
+  }
+  
+  .main-header-ul-menu {
+    grid-column: 2/3;
+    justify-content: center;
+  }
+  
+  .main-header-li,
+  .main-header-li-logo {
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .main-header-li a {
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+  }
+  
+  .main-header-li-logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+  }
+  
+  .main-header-li a:hover {
+    color: #000;
+  }
